@@ -40,3 +40,43 @@ nav ul li{
     font-weight: bold;
     font-size: 20px;
 }
+
+.container{
+    min-height: 65vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 15px;
+    padding: 30px;
+    background-image: url('bg.png');
+}
+
+.icons{
+    margin-top: 15px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#myProgressBar{
+    width: 80vw;
+    /* Text align: center will not work in this bcz ye koi container ya div nhi h jiske items ko center krna ho */
+    /* text-align: center; */
+    
+}
