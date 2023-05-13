@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap');
  
 body{
-    background-color: antiquewhite;
+    background-color: rgb(248, 244, 238);
 }
 
 *{
@@ -80,6 +80,7 @@ nav ul li{
     width: 80vw;
     /* Text align: center will not work in this bcz ye koi container ya div nhi h jiske items ko center krna ho */
     /* text-align: center; */
+    cursor: pointer;
 }
 
 .songItem{
@@ -115,4 +116,10 @@ nav ul li{
 .songInfo{
     position: absolute;
     left: 10vw;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 1s ease-in;
 }
